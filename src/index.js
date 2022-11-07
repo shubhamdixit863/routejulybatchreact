@@ -12,6 +12,7 @@ import About from './pages/About';
 import AboutCompany from './pages/AboutCompany';
 import AboutFounder from './pages/AboutFounder';
 import Contact from './pages/Contact';
+import Todo from './pages/Todo';
 /*
 const router = createBrowserRouter([
   {
@@ -51,9 +52,14 @@ const router = createBrowserRouter([
     element: <App/>,
     children:[
       {
-        path: "/contact",
+        path: "contact",
         element: <Contact/>,
       },
+      {
+        path: "todo",
+        element: <Todo/>,
+      },
+      
       {
         path: "/about",
         element:<About/>,
